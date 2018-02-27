@@ -138,9 +138,6 @@ class App extends Component {
         pendingGuest={this.state.pendingGuest}/>
 
       </div>
-      <Footer 
-      guests={this.state.guests}
-      removeGuestAt={this.removeGuestAt}/>
     </div>
     );
   }
